@@ -40,7 +40,7 @@ export default function DocumentMenu({ documents = [] }) {
       documents.reduce((acc, d) => {
         if (d && d.category) acc.add(d.category);
         return acc;
-      }, new Set())
+      }, new Set()),
     );
 
     // Always have "My Documents" first, then the discovered categories
@@ -106,9 +106,6 @@ export default function DocumentMenu({ documents = [] }) {
                     textTransform: "none",
                     color: "text.primary",
                   }}
-                  aria-controls={mobileOpen ? "category-menu" : undefined}
-                  aria-haspopup="true"
-                  aria-expanded={mobileOpen ? "true" : undefined}
                 >
                   <FolderIcon sx={{ mr: 1 }} />
                   <Typography variant="subtitle1">{selected}</Typography>
