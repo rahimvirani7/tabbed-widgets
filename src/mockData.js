@@ -13,6 +13,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Ground Transport"
   },
   {
     id: "002",
@@ -29,6 +30,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Ground Transport"
   },
   {
     id: "003",
@@ -44,6 +46,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Ground Transport"
   },
   {
     id: "004",
@@ -60,6 +63,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Air Transport"
   },
   {
     id: "005",
@@ -75,6 +79,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Storage"
   },
   {
     id: "006",
@@ -91,6 +96,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Ground Transport"
   },
     {
     id: "007",
@@ -107,6 +113,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Air Transport"
   },
   {
     id: "008",
@@ -122,6 +129,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Ground Transport"
   },
   {
     id: "009",
@@ -138,6 +146,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Ground Transport"
   },
   {
     id: "010",
@@ -154,6 +163,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Air Transport"
   },
   {
     id: "011",
@@ -169,6 +179,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Air Transport"
   },
   {
     id: "020",
@@ -184,6 +195,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Ground Transport"
   },
   {
     id: "021",
@@ -199,6 +211,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: true,
     status: "Completed",
+    tabCategory: "Ground Transport"
   },
   {
     id: "022",
@@ -214,6 +227,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Air Transport"
   },
   {
     id: "023",
@@ -229,6 +243,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Storage"
   },
   {
     id: "033",
@@ -245,6 +260,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Ground Transport"
   },
   {
     id: "034",
@@ -262,21 +278,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
-  },
-  {
-    id: "035",
-    title: "",
-    subtitle: "",
-    event: "Delivery",
-    logic: "",
-    url: "",
-    completed: false,
-    online: false,
-    visible: true,
-    tab: null,
-    buttonLabel: null,
-    isAutoCompleted: false,
-    status: "Pending",
+    tabCategory: "Ground Transport"
   },
   {
     id: "038",
@@ -293,6 +295,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Air Transport"
   },
   {
     id: "039",
@@ -308,6 +311,7 @@ export const sampleTasks = [
     buttonLabel: null,
     isAutoCompleted: false,
     status: "Pending",
+    tabCategory: "Air Transport"
   },
 ];
 
